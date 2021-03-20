@@ -16,4 +16,9 @@ export class ServersComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  serverCreationStatus = 'No Server was Created';
+
+  onCreateServer() {
+    this.serverCreationStatus = 'Server Was Created !';
+  }
 }
